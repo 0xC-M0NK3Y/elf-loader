@@ -5,6 +5,7 @@ Assembly written simple elf loader
 
 It's an x86_64 linux assembly written loader,  
 that can load **statically linked, position independant executable**, elf.  
+does not handle elf that use an interpreter  
 (https://www.cs.cmu.edu/afs/cs/academic/class/15213-f00/docs/elf.pdf x86 elf in documentation, but basically the same)  
 
 It take an elf, does a very minimalistic parsing,  
